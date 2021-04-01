@@ -25,7 +25,7 @@ gs4_deauth()
 gs4_auth()
 
 # Change to where your googlesheets is
-data_location = "https://docs.google.com/spreadsheets/d/1AomByoMj_LhPizchiXdSVZY5k7XSnnu_Wd60jbmNGoE/"
+data_location = "https://docs.google.com/spreadsheets/d/1nhetOu9efARk3dEOCqM3mSLyZVA4jEj39F6fRnlPem4"
 
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
@@ -35,7 +35,7 @@ render("build/cv.rmd",
 
 # Convert to PDF using Pagedown. Change output location below if necessary.
 chrome_print(input = tmp_html_cv_loc,
-                       output = "static/files/John_Doe_CV.pdf")
+                       output = "static/files/CV.pdf")
 
 # Output Hugo Publication and Experience pages. Note this will overwrite any
 # files that are there.

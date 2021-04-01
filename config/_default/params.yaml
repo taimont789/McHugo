@@ -20,10 +20,10 @@ font_size: L
 ### SEO ###
 site_type: Person
 local_business_type: ''
-org_name: 'John Doe'
+org_name: 'Julie Rog'
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description: 'I am a Finance Ph.D. Candidate at McGill University. My research interests include Asset Pricing, Asset Pricing, and More Asset Pricing'
+description: 'I am Julie'
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
 twitter: 'JohnDoeMcGill'
